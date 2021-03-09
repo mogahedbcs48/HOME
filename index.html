@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icon Box -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/main.css">
+    
+    <title>Mogahed</title>
+</head>
+<body>
+    
+    <!-- Heder -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav-logo">Mogahed Mahagoub</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Skils</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-toggle" id="nav-togle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Container -->
+    <div class="l-mein">
+        <!-- Home -->
+        <section class="home bd-grid" id="home">
+            <div class="home-data">
+                <h1 class="home-title">
+                    Hi, <br> I'am  Mogahed<br><span class="home-title-color"></span>
+                </h1>
+                <a href="#" class="button">Contact</a>
+            </div>
+
+            <div class="home-social">
+                <a href="#" class="home-social-icon"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#" class="home-social-icon"><i class='bx bxl-github' ></i></a>
+                <a href="#" class="home-social-icon"><i class='bx bxl-facebook-square' ></i></a>
+            </div>
+
+            <div class="home-img">
+                <img src="./img/profile/profile.png" alt="">
+            </div>
+        </section>
+    </div>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script>
+        var typed = new Typed('.home-title-color', {
+          strings: ['Flutter developer', 'App developer', 'Web developer'],
+          typeSpeed: 100,
+          backSpeed: 70,
+          loop: true,
+        });
+      </script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
